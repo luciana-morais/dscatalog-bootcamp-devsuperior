@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Catalog from './pages/Catalog';
-import Home from './pages/Home';
-import Admin from './pages/Admin';
-import Navbar from './core/assets/components/navbar';
+import Catalog from './pages/catalog';
+import Home from './pages/home';
+import Admin from './pages/admin';
+import Navbar from './core/components/navbar';
 
 const Routes = () => (
     <BrowserRouter>
-        <Navbar>
+        <Navbar />
         <Switch>
             <Route path="/" exact>
                 <Home />
@@ -18,8 +18,7 @@ const Routes = () => (
             <Route path="/admin">
                 <Admin />
             </Route>
-        </Switch>
-        </Navbar>            
+        </Switch>            
     </BrowserRouter>
 );
 

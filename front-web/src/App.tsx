@@ -1,5 +1,5 @@
 import React from 'react';
-import './core/assets/styles/custom.scss';
+import './core/styles/custom.scss';
 import './App.scss';
 import Routes from './Routes';
 
