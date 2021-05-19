@@ -4,7 +4,7 @@ import './App.scss';
 import Routes from './Routes';
 
 const App = () => {
-  return(
+  return (
     <Routes />
   ); 
 }
